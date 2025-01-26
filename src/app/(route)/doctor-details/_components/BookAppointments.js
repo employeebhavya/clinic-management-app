@@ -122,7 +122,7 @@ function BookAppointments({ doctors }) {
       {/* Modal (Popup) */}
       {isOpen && (
         <div className="fixed inset-0 bg-gray-500 bg-opacity-75 z-50 flex justify-center items-center">
-          <div className="bg-white rounded-lg shadow-lg w-full md:w-[707px] p-6">
+          <div className="bg-white rounded-lg shadow-lg w-full md:w-[707px] p-6 max-h-[90vh] md:max-h-max overflow-y-auto">
             {/* Modal Header */}
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-semibold">Book Appointment</h2>

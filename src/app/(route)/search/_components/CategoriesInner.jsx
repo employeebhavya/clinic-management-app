@@ -32,10 +32,10 @@ function CategoriesInner() {
     });
   };
   return (
-    <div className="h-screen">
+    <div className="md:h-screen mb-4 md:mb-0">
       <Command>
         <CommandInput placeholder="Type a command or search..." />
-        <CommandList className="overflow-visible">
+        <CommandList className="overflow-visible max-h-max">
           <CommandEmpty>No results found.</CommandEmpty>
           <CommandGroup heading="Suggestions">
             {categoriesList.length > 0 ? (

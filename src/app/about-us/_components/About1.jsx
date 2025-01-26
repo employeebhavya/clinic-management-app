@@ -4,7 +4,7 @@ import React from "react";
 
 const About1 = () => {
   return (
-    <Container className="overflow-hidden py-10">
+    <Container className="overflow-hidden pt-10 pb-0 md:pb-10">
       <div className="flex flex-wrap items-center justify-between -mx-4">
         <div className="w-full px-4 lg:w-6/12">
           <div className="flex items-center -mx-3 sm:-mx-4">

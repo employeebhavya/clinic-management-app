@@ -4,7 +4,7 @@ import React from "react";
 function AboutHome() {
   return (
     <div>
-      <section className="py-24 relative xl:mr-0 lg:mr-5 mr-0">
+      <section className="pt-14 md:pb-10 relative xl:mr-0 lg:mr-5 mr-0">
         <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
           <div className="w-full justify-start items-center xl:gap-12 gap-10 grid lg:grid-cols-2 grid-cols-1">
             <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
@@ -14,7 +14,7 @@ function AboutHome() {
                     About Us
                   </h6>
                   <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
-                    <h2 className="text-primary text-4xl font-bold lg:text-start text-center">
+                    <h2 className="text-3xl font-semibold text-primary text-center md:text-start">
                       Our Journey to Empowering Clinics with Innovation
                     </h2>
                     <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">

@@ -21,14 +21,14 @@ function DoctorList({
       <h2 className={`text-2xl font-semibold text-gray-900 ${headingsm}`}>
         {heading}
       </h2>
-      <div className={`grid grid-cols-1 gap-5 ${sm} ${md} w-full`}>
+      <div className={`grid grid-cols-1 gap-10 md:gap-8 ${sm} ${md} w-full`}>
         {doctorsList.length > 0
           ? doctorsList.map(
               (doctor, index) =>
                 index < listValue && (
                   <div
                     key={index}
-                    className="flex flex-col items-center md:items-start border-[1px] p-3 rounded-lg hover:border-primary transition-all duration-300 ease-in-out hover:shadow-lg cursor-pointer"
+                    className="flex flex-col items-center md:items-start border-[1px] px-3 py-8 md:p-3 rounded-lg hover:border-primary transition-all duration-300 ease-in-out hover:shadow-lg cursor-pointer"
                   >
                     <Image
                       src={doctor.Image.url}
