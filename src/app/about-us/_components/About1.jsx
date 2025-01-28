@@ -10,27 +10,15 @@ const About1 = () => {
           <div className="flex items-center -mx-3 sm:-mx-4">
             <div className="w-full px-3 sm:px-4 xl:w-1/2">
               <div className="py-3 sm:py-4">
-                <img
-                  src="https://i.ibb.co/gFb3ns6/image-1.jpg"
-                  alt=""
-                  className="w-full rounded-2xl"
-                />
+                <img src="/about2.png" alt="" className="w-full rounded-2xl" />
               </div>
               <div className="py-3 sm:py-4">
-                <img
-                  src="https://i.ibb.co/rfHFq15/image-2.jpg"
-                  alt=""
-                  className="w-full rounded-2xl"
-                />
+                <img src="/about3.png" alt="" className="w-full rounded-2xl" />
               </div>
             </div>
             <div className="w-full px-3 sm:px-4 xl:w-1/2">
               <div className="relative z-10 my-4">
-                <img
-                  src="https://i.ibb.co/9y7nYCD/image-3.jpg"
-                  alt=""
-                  className="w-full rounded-2xl"
-                />
+                <img src="/about1.png" alt="" className="w-full rounded-2xl" />
                 <span className="absolute -right-7 -bottom-7 z-[-1]">
                   <svg
                     width={134}
