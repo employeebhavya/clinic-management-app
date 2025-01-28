@@ -13,7 +13,7 @@ function AboutUs() {
           <div className="max-w-xl ltr:sm:text-left rtl:sm:text-right">
             <h1 className="text-3xl font-extrabold text-white sm:text-5xl">
               Manage Your
-              <strong className="block font-extrabold text-primary">
+              <strong className="block font-extrabold text-gray-200">
                 Clinic Effortlessly.
               </strong>
             </h1>
